@@ -41,3 +41,18 @@ int Player:: getScore4()
     return _score4;
 }
 
+int Player :: afficheScoreTotal()
+{
+
+
+}
+
+int Player :: afficheMoyenneScore()
+{
+
+}
+
+int Player :: afficheMeilleurChanson()
+{
+
+}
