@@ -13,6 +13,14 @@ Player Sylvestre = Player("Sylvestre", 0, 0, 0, 0, 0);
 
 Francois.afficheScoreTotal();
 Amanda.afficheScoreTotal();
+Julien.afficheScoreTotal();
+Arnaud.afficheScoreTotal();
+Sylvestre.afficheScoreTotal();
+Francois.afficheMoyenneScore();
+Amanda.afficheMoyenneScore();
+Julien.afficheMoyenneScore();
+Arnaud.afficheMoyenneScore();
+Sylvestre.afficheMoyenneScore();
 
 
 return 0;
