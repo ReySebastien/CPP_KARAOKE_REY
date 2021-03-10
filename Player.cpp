@@ -1,6 +1,7 @@
 #include "Player.h"
 #include <string>
 #include <iostream>
+#include <vector>
 
 Player::Player() : _nomJoueur("François"), _score0 (), _score1 (), _score2 (), _score3 (), _score4 ()
 {
@@ -55,6 +56,16 @@ int Player :: afficheMoyenneScore()
 
     std :: cout << "La moyenne des scores du joueur " << _nomJoueur << " est : " << _moyenneScore << std :: endl;
     return _moyenneScore;
+}
+
+int Player :: affichePireScore()
+{
+    for (int i=0; i<_pireScore; i++)
+    {
+        int tableauScore[_score0, _score1, _score2, _score3, _score4]
+        
+    }
+    return _pireScore;
 }
 
 std::string Player :: afficheMeilleureChanson()

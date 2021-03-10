@@ -11,6 +11,7 @@ class Player
         int _score4;
         int _scoreTotal;
         int _moyenneScore;
+        int _pireScore;
         std::string _meilleureChanson;
 
     public:
@@ -22,6 +23,7 @@ class Player
         int getScore4();
         int afficheScoreTotal();
         int afficheMoyenneScore();
+        int affichePireScore();
         std::string afficheMeilleureChanson();
         Player();
         Player(std::string name, int score_0, int score_1, int score_2, int score_3, int score_4);
