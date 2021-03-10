@@ -17,6 +17,9 @@ class Player
         int getScore2();
         int getScore3();
         int getScore4();
+        int afficheScoreTotal();
+        int afficheMoyenneScore();
+        int afficheMeilleurChanson();
         Player();
         Player(std::string name, int score_0, int score_1, int score_2, int score_3, int score_4);
 };
