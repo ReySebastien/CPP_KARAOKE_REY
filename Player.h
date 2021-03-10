@@ -17,6 +17,6 @@ class Player
         int _getScore2();
         int _getScore3();
         int _getScore4();
-
-
+        Player();
+        Player(std:string name, int score_0, int score_1, int score_2, int score_3, int score_4);
 }
