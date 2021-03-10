@@ -15,3 +15,29 @@ std:: string Player:: getNom()
 {
     return _nomJoueur;
 }
+
+int Player:: getScore0()
+{
+    return _score0;
+}
+
+int Player:: getScore1()
+{
+    return _score1;
+}
+
+int Player:: getScore2()
+{
+    return _score2;
+}
+
+int Player:: getScore3()
+{
+    return _score3;
+}
+
+int Player:: getScore4()
+{
+    return _score4;
+}
+
