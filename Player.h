@@ -9,6 +9,8 @@ class Player
         int _score2;
         int _score3;
         int _score4;
+        int _scoreTotal;
+        int _moyenneScore;
 
     public:
         std::string getNom();

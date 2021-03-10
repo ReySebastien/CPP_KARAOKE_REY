@@ -5,11 +5,15 @@ using namespace std;
 
 int main()
 {
-Player François = Player("François", 0, 0, 0, 0, 0);
-Player Amanda = Player("Amanda", 0, 0, 0, 0, 0);
+Player Francois = Player("François", 1, 2, 3, 1, 1);
+Player Amanda = Player("Amanda", 1, 0, 0, 0, 0);
 Player Julien = Player("Julien", 0, 0, 0, 0, 0);
 Player Arnaud = Player("Arnaud", 0, 0, 0, 0, 0);
 Player Sylvestre = Player("Sylvestre", 0, 0, 0, 0, 0);
+
+Francois.afficheScoreTotal();
+Amanda.afficheScoreTotal();
+
 
 return 0;
 }
