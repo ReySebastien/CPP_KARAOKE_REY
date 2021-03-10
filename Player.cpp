@@ -64,14 +64,14 @@ int Player :: affichePireScore()
     for (int i=0; i<_pireScore; i++)
     {
         int tableauScore[_score0, _score1, _score2, _score3, _score4];
-        
+//je voulais ici faire une fonction qui compare les valeurs de chaque score et retourne le score le plus bas, cependant je n'ai pas eu le temps de la rendre fonctionnelle.
     }
     return _pireScore;
 }
 
 std::string Player :: afficheMeilleureChanson()
 {
-
+// Ici pareil que pour la fonction du dessus, mon but aurait été de comparer les scores des différentes chansons et de retourner la valeur la plus haute.
 return _meilleureChanson;
 }
 
