@@ -3,7 +3,7 @@
 class Player
 {
     private:
-        std::string _nom;
+        std::string _nomJoueur;
         int _score0;
         int _score1;
         int _score2;
@@ -18,5 +18,5 @@ class Player
         int _getScore3();
         int _getScore4();
         Player();
-        Player(std:string name, int score_0, int score_1, int score_2, int score_3, int score_4);
-}
+        Player(std::string name, int score_0, int score_1, int score_2, int score_3, int score_4);
+};
