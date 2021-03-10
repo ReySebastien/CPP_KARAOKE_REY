@@ -2,6 +2,7 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include "Karaoke.h"
 
 Player::Player() : _nomJoueur("François"), _score0 (), _score1 (), _score2 (), _score3 (), _score4 ()
 {
@@ -62,7 +63,7 @@ int Player :: affichePireScore()
 {
     for (int i=0; i<_pireScore; i++)
     {
-        int tableauScore[_score0, _score1, _score2, _score3, _score4]
+        int tableauScore[_score0, _score1, _score2, _score3, _score4];
         
     }
     return _pireScore;
@@ -72,4 +73,29 @@ std::string Player :: afficheMeilleureChanson()
 {
 
 return _meilleureChanson;
+}
+
+std::string Karaoke:: getNomChanson1()
+{
+    return _nomChanson1;
+}
+
+std::string Karaoke:: getNomChanson2()
+{
+    return _nomChanson2;
+}
+
+std::string Karaoke:: getNomChanson3()
+{
+    return _nomChanson3;
+}
+
+std::string Karaoke:: getNomChanson4()
+{
+    return _nomChanson4;
+}
+
+std::string Karaoke:: getNomChanson5()
+{
+    return _nomChanson5;
 }
